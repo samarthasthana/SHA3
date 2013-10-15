@@ -1,0 +1,31 @@
+Example.txt = Contains the execution of the sha3 implementation depicting the avalanche effect 
+
+Input text = This is a test file
+Output Hash= c72388fda3f40fda3f587fbe77fdacfff5673f8a77f9aceff35734eccfd6f35
+
+Changing one letter in the input text
+
+Input text = This it the input text
+Output Hash= 544aa62ad8a9e2ad89145fd7adf3f9d7740d8f960ce3f18777cfde964e06b58
+
+As we can see on comparison that more than half the characters in the msg hash are changed.
+
+Hashing a large text.
+
+Input text = I know (I know) you belong To somebody new But tonight You belong to me Although 
+(although) we're apart You are a part of my heart But tonight You belong to me 
+Wait down by the stream How sweet it will seem Once more just to dream in 
+
+Output Hash= d004316f85bc96f85d6677fa91ffa57ff940a4729057a10e5ea3b946eba5ef5
+
+Changing only a single letter from the text entered above to check avalanche
+
+Input text = I know (I gnow) you belong To somebody new But tonight You belong to me Although 
+(although) we're apart You are a part of my heart But tonight You belong to me 
+Wait down by the stream How sweet it will seem Once more just to dream in 
+
+Output Hash = 8122e30a4c2bb0a4c6f11bf7ff6d7fbf7ba9ead78d69793d3e4075c70598d14
+
+Again we can observe that most of the characters in the generated hash are unique.
+
+-------------------------------------------------------------------------------------------------------------------------
